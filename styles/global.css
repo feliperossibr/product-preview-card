@@ -17,7 +17,59 @@
   --ff-nb: "Fraunces", serif;
 }
 
+html,
+main {
+  width: 100%;
+  height: auto;
+  font-family: var(--ff-nb);
+  background-color: var(--cream);
 
+  padding: 1rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: .6rem;
+
+  & > .card-img {
+    
+      & > img {
+      max-width: 100%;
+      border-top-left-radius: .6rem;
+      border-top-right-radius: .6rem;
+    }
+  }
+
+  & > .card-price > #description {
+    & > h2 {
+      font: 500 .7rem/2.5 var(--ff-base);
+      text-transform: uppercase;
+      color: var(--grey);
+
+      margin: 1rem 1rem 0rem 1rem;
+    }
+
+    & > h1 {
+      font: 700 2rem/1 var(--ff-nb);
+      padding: 0rem 1rem;
+    }
+
+    & > p {
+      padding: 0rem 1rem;
+    }
+  }
+}
+
+.btn {
+  padding: 1rem;
+  width: 300px;
+
+  border-radius: .6rem;
+  border: none;
+  background-color: var(--green-500);
+}
 
 #footer {
   font-size: .8rem;
