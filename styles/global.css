@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --green-500: #3c8067;
+  --green-700: #1b4133;
+
+  --black: #1c232b;
+  --grey: #6c7289;
+  --cream: #f2ebe3;
+  --white:#ffffff;
+
+  --ff-base:"Montserrat", sans-serif;
+  --ff-nb: "Fraunces", serif;
+}
+
+
+
+#footer {
+  font-size: .8rem;
+  text-align: center;
+
+  & > a {
+    text-decoration: none;
+    color: #008e28;
+  }
+}

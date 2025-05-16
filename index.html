@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
   <title>Product preview card component</title>
 
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+  <main>
+    <div class="cards-wrapper">
+      <div class="card-img">
+        <img src="images/image-product-mobile.jpg" alt="">
+      </div>
+
+      <div class="card-price">
+        <div id="description">
+          <h2>Perfume</h2>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>A floral, solar and voluptions interpretation composed by Oliver Polge, Perfumer-Creator for the House od CHANEL.</p>
+        </div>
+
+        <div id="price">
+          <div id="right">
+            <span>$149.99</span>
+          </div>
+          <div id="left">
+            <span>$169.99</span>
+          </div>
+
+          <button type="submit">
+            <img src="images/icon-cart.svg">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
   
+
+  <footer id="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Felipe Rossi</a>.
+  </footer>
 </body>
 </html>
